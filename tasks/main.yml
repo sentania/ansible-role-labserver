@@ -5,3 +5,11 @@
 
 - include: redhat.yml
   when: ansible_os_family == 'RedHat'
+
+- include: windows.yml
+  when: ansible_os_family == 'Windows'
+
+- name: Install loginsight
+  include_role:
+  src: https://gitlab.sentania.net/scott/ansible-role-loginsight.git
+  version: v1.1
