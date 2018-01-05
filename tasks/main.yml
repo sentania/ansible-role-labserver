@@ -11,5 +11,9 @@
 
 - name: Install loginsight
   include_role:
-  src: https://gitlab.sentania.net/scott/ansible-role-loginsight.git
+  src: https://github.com/sentania/ansible-role-loginsight.git
   version: v1.1
+  tags:
+    - new
+    - update
+    
