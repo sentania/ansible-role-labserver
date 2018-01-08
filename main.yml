@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  vars_files:
+    - vars/rootpassword.yml
+    - vars/windows_administrator_password.yml
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+
+  roles:
+    - ansible-role-loginsight
+    - configure-localaccounts
