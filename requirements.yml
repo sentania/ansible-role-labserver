@@ -1,0 +1,11 @@
+---
+
+-  src: https://github.com/sentania/configure-localaccounts.git
+   scm: git
+   version: master
+   name: configure-localaccounts
+
+-  src: https://github.com/sentania/ansible-role-loginsight.git
+   scm: git
+   version: master
+   name: ansible-role-loginsight
