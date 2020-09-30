@@ -9,5 +9,5 @@
   gather_facts: yes
 
   roles:
-    - ansible-role-loginsight
+  #  - ansible-role-loginsight
     - configure-localaccounts
