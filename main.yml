@@ -10,7 +10,8 @@
 
   tasks:
     - name: Write file marker
-      file: "/tmp/{{ serverName }}"
+      file: 
+        path: "/tmp/{{ serverName }}"
         owner: root
         group: root
         mode: '0644'
