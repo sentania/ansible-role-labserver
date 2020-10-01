@@ -11,8 +11,8 @@
   tasks:
     - name: Write file marker
       file: "/tmp/{{ serverName }}"
-      owner: root
-      group: root
-      mode: '0644'
-      state: touch
+        owner: root
+        group: root
+        mode: '0644'
+        state: touch
      
