@@ -8,12 +8,3 @@
   roles:
     - ansible-role-loginsight
 
-  tasks:
-    - name: Write file marker
-      file: 
-        path: "/tmp/{{ serverName }}"
-        owner: root
-        group: root
-        mode: '0644'
-        state: touch
-     

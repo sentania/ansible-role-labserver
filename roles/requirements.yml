@@ -4,5 +4,5 @@
 
 -  src: https://github.com/sentania/ansible-role-loginsight.git
    scm: git
-   version: v1.0
+   version: master
    name: ansible-role-loginsight
